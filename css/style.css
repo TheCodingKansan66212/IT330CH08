@@ -1,0 +1,50 @@
+#container{
+    width: 80%;
+    max-width: 960px;
+    min-width: 500px;
+}
+header{
+    width: 100%;
+}
+main{
+    width: 60%;
+    background-color: #EEEEEE;
+    float: left;
+    display: flex;
+}
+aside{
+    width: 40%;
+    background-color: #DBDBEA;
+    float: right;
+    display: flex;
+}
+
+img{
+    width: 10%;
+    float: right;
+}
+
+nav{
+    background-color: #BFEFFF
+}
+
+ol{
+    list-style-type: none;
+    padding: 8px;
+    overflow: hidden;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 12px 5px 8px 145px;
+}
+
+footer{
+    width: 100%;
+    background-color: #BFFFDF;
+    height: 300px;
+    padding: 10px 5px 5px 0px;
+}
